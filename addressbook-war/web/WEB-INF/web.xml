@@ -8,6 +8,10 @@
         <servlet-name>s2</servlet-name>
         <servlet-class>servlets.s2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>s1</servlet-name>
+        <servlet-class>servlets.s1</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>customer_display</servlet-name>
         <url-pattern>/customer_display</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>s2</servlet-name>
         <url-pattern>/s2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>s1</servlet-name>
+        <url-pattern>/s1</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
